@@ -1,0 +1,156 @@
+body h1 {
+  font-family: "Lato", sans-serif;
+  font-size: 100px;
+}
+body h2 {
+  color: black;
+  font-family: "Lato", sans-serif;
+}
+body ul {
+  list-style: none;
+  padding: 0;
+}
+.container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.container .card {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  font-size: 20px;
+  text-align: center;
+}
+.Buttons {
+  display: flex;
+}
+.formCont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Inpts {
+  font-family: "Lato", sans-serif;
+  width: 250px;
+  margin: 10px;
+  background-color: white;
+  color: black;
+  border: 1px solid white;
+  border-radius: 5px;
+  height: 30px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.Inpts:hover {
+  margin: 10px;
+  background-color: white;
+  border: 1px solid white;
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 30px;
+  transition: 0.5s;
+}
+.Btns {
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  width: 180px;
+  height: 40px;
+  background-color: grey;
+  border: 1px solid grey;
+  color: lightgrey;
+  border-radius: 5px;
+  font-weight: bold;
+  margin: 5px;
+}
+.btnsc {
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  width: 180px;
+  height: 40px;
+  background-color: white;
+  border: 1px solid white;
+  color: black;
+  border-radius: 5px;
+  font-weight: bold;
+  margin: 20px;
+}
+.btnsc:hover {
+  background-color: black;
+  border: 1px solid black;
+  color: white;
+  transition: 0.5s;
+}
+.btnsl {
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  width: 180px;
+  height: 40px;
+  background-color: black;
+  border: 1px solid black;
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  margin: 20px;
+}
+.btnsl:hover {
+  background-color: white;
+  border: 1px solid white;
+  color: black;
+  transition: 0.5s;
+}
+.Btns:hover {
+  background-color: green;
+  font-weight: 700;
+  color: white;
+  border: 1px solid white;
+  transition: 0.5s;
+  border-radius: 5px;
+}
+.cont {
+  background-color: white;
+  border-radius: 2px;
+}
+.Titlefirst {
+  color: white;
+  font-family: "Staatliches", cursive;
+  border-radius: 8px;
+}
+.titles {
+  display: flex;
+}
+.hub {
+  color: black;
+
+  font-family: "Lobster", cursive;
+}
+.hub:hover {
+  transform: rotate(1turn);
+  transition: 1s;
+  color: white;
+}
+.errors {
+  font-size: 12px;
+  color: red;
+}
+.card {
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  color: black;
+}
+.btnAdd {
+  width: 40px;
+  background-color: darkred;
+  color: white;
+  border: 1px solid darkred;
+  border-radius: 5px;
+}
+.btnAdd:hover {
+  background-color: green;
+  transition: 0.3s;
+  border-color: green;
+}
